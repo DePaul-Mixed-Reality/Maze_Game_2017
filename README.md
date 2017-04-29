@@ -5,10 +5,5 @@ This is the repository for the first game built by the Virtual Reality Club at D
 A twist to this game is that the maze world will be a cube (with six planes). When the player walks off the edge of one plane, the world will do a 180 degree shift, and they will enter another plane. This will make the maze more challenging to memorize and more interesting for the player.
 
 We mentioned above that the maze will be randomly themed. Since each level consists of four types of objects (the player, walls, keys, and monsters) it will be easy to theme our levels since we have so few objects to style. That is why we want to add many different themes like pac-man, legend of zelda, shrek, etc. By providing the player with a random theme and maze layout every level our game will have lots of replayability.
-<<<<<<< HEAD
 
-Team members: [Joseph Walker](https://www.linkedin.com/in/joseph-walker-95878226/), [Cody Nicholson](https://www.linkedin.com/in/codynicholson/), Alec Scott
-=======
-      
-Team members: [Joseph Walker](https://www.linkedin.com/in/joseph-walker-95878226/), [Cody Nicholson](https://www.linkedin.com/in/codynicholson/)
->>>>>>> 24403061adf0fe19dd61fafdef9129cee1198e4c
+Team members: [Joseph Walker](https://www.linkedin.com/in/joseph-walker-95878226/), [Cody Nicholson](https://www.linkedin.com/in/codynicholson/), [Alec Scott](https://www.linkedin.com/in/alec-scott-043b35b7), [Victor Shollenberger](https://www.linkedin.com/in/victor-shollenberger-13395171)
