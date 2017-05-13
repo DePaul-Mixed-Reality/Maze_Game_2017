@@ -40,6 +40,10 @@ public class player_controller : MonoBehaviour {
         Vector3 movement = new Vector3(moveXDirection, 0.0f, moveZDirection);
 
         // Apply the movement direction multiplied by the speed to the object
-        rb.AddForce(movement * speed);
+        //rb.AddForce(movement * speed);
+
+        movement = movement.normalized * speed * Time.deltaTime;
+
+        rb.MovePosition(transform.position + movement);
 	}
 }
