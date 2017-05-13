@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c9159fc40210c47458e17d21c235f907
+timeCreated: 1494630566
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FuturaExtraBoldIta
+  fontNames:
+  - FuturaExtraBoldIta
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
