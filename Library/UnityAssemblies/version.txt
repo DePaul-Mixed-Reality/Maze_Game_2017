@@ -1,4 +1,4 @@
-5.6.0f3:2.3.0.0
+5.6.0f3:3.1.0.0
 StandaloneWindows
 C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll
 C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
@@ -9,4 +9,3 @@ C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEng
 C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll
 C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll
 C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll
-C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll
