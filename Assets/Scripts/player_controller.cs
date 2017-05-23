@@ -42,8 +42,10 @@ public class player_controller : MonoBehaviour {
         // Apply the movement direction multiplied by the speed to the object
         //rb.AddForce(movement * speed);
 
+        // Normalize movement (stop movement)
         movement = movement.normalized * speed * Time.deltaTime;
 
+        // Update the movement vector to rigidbody
         rb.MovePosition(transform.position + movement);
 	}
 }
