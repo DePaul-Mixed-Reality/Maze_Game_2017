@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze_Game_2017", "Maze_Game_2017.csproj", "{AF5429EA-CBB0-5B7A-E5E6-404F402024F5}"
 EndProject
 Global

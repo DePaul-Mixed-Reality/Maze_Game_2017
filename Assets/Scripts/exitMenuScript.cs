@@ -12,27 +12,27 @@ public class exitMenuScript : MonoBehaviour
     private static exitMenuScript GetInstance() { return instance; }
 
     //Canvas and Button are UI Objects
-    public Canvas quitMenu;
+    public Canvas inGameExit;
 
     // Use this for initialization
     void Start()
     {
-        quitMenu = quitMenu.GetComponent<Canvas>();
-        quitMenu.enabled = false;//starts game without quit menu
+        inGameExit = inGameExit.GetComponent<Canvas>();
+        inGameExit.enabled = false;
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            quitMenu.enabled = true;
+            inGameExit.enabled = true;
         }
     }
 
     //for when we click on "no"
     public void noPress()
     {
-        quitMenu.enabled = false;
+        inGameExit.enabled = false;
     }
 
     public void backToTitle()

@@ -1,25 +1,29 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour {
 
     //Canvas and Button are UI Objects
     public Canvas quitMenu;
-    public Button startText;
-    public Button exitText;
+    public Image startText;
+    public Image exitText;
+    public Canvas exitWindow;
 
 	// Use this for initialization
 	void Start () {
-        quitMenu = quitMenu.GetComponent<Canvas>();
-        startText = startText.GetComponent<Button>();
-        exitText = exitText.GetComponent<Button>();
-        quitMenu.enabled = false;//starts game without quit menu
+        //quitMenu = quitMenu.GetComponent<Canvas>();
+        exitWindow = exitWindow.GetComponent<Canvas>();
+        startText = startText.GetComponent<Image>();
+        exitText = exitText.GetComponent<Image>();
+        exitWindow.enabled = false;
     }
 
     public void exitPress()
     {
-        quitMenu.enabled = true;
+        //quitMenu.enabled = true;
+        exitWindow.enabled = true;
         startText.enabled = false;
         exitText.enabled = false;
     }
@@ -27,14 +31,14 @@ public class MenuScript : MonoBehaviour {
     //for when we click on "no"
     public void noPress()
     {
-        quitMenu.enabled = false;
+        exitWindow.enabled = false;
         startText.enabled = true;
         exitText.enabled = true;
     }
 
     public void startLevel()
     {
-        Application.LoadLevel(1);
+        SceneManager.LoadScene(1);
     }
 
     public void exitGame()
