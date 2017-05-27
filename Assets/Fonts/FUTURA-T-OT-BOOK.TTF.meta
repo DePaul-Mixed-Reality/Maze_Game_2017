@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3845aec62e6d7f2428dc87c98fdbdfb4
+timeCreated: 1495869127
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Futura T OT
+  fontNames:
+  - Futura T OT
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

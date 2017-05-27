@@ -78,6 +78,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\KeyCount.cs" />
+    <Compile Include="Assets\Scripts\Keys.cs" />
     <Compile Include="Assets\Scripts\MazeNode.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\Scripts\camera_controller.cs" />

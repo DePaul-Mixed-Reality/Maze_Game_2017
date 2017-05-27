@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 51976779d9c293f44ab1465ae8faf987
+timeCreated: 1495839814
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Retro60Prime
+  fontNames:
+  - Retro60Prime
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
